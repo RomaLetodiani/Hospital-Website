@@ -1,7 +1,4 @@
-type Props = object;
-
-const Footer = (props: Props) => {
-  console.log(props);
+const Footer = () => {
   return <div className="my-56">Footer</div>;
 };
 

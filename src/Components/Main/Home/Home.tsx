@@ -4,7 +4,7 @@ import DescNums from './DescNums';
 
 const Home = () => {
   return (
-    <section id="home">
+    <section className="pt-28" id="home">
       <div className="flex flex-col-reverse text-center md:text-left md:flex-row items-center justify-between gap-10">
         <div className=" tracking-wider md:tracking-normal max-w-xs lg:max-w-xl ">
           <h1 className="lg:text-7xl text-4xl font-bold">
