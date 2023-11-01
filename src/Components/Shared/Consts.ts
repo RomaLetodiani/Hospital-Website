@@ -20,6 +20,8 @@ import user1 from '@/assets/Images/users/user1.jpg';
 import user2 from '@/assets/Images/users/user2.jpg';
 import user3 from '@/assets/Images/users/user3.jpg';
 
+import logo from '@/assets/Images/logo.png';
+
 export const links = ['Home', 'Doctors', 'Services', 'Reviews'];
 
 export const descNums = [
@@ -248,4 +250,19 @@ export const FeedbackData = {
       desc: "One thing that stood out to me was the efficiency of the service, i didn't have to wait long for my appointment, and the entire process was hassle-free experience",
     },
   ],
+};
+
+export const FooterData = {
+  logo: logo,
+  addresses: ['4517 Washington Ave', 'Manchester, Kentucky 39495'],
+  phone: '+1 (505) 555-0125',
+  departments: [
+    'Cardiology',
+    'Dentistry',
+    'Neurology',
+    'Orthopedics',
+    'Surgery',
+    'More',
+  ],
+  links: links,
 };
