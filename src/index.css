@@ -13,6 +13,8 @@
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 /* Styles for the scrollbar thumb */
@@ -24,4 +26,5 @@
 /* Styles for the scrollbar track */
 ::-webkit-scrollbar-track {
   background-color: #a7c4ff; /* Color of the track */
+  border-radius: 4px;
 }

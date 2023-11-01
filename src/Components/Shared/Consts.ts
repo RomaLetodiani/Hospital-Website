@@ -8,6 +8,14 @@ import urology from '@/assets/Images/Icons/Urology.png';
 import medicine from '@/assets/Images/Icons/Medicine.png';
 import seeMoreImage from '@/assets/Images/Icons/seeMoreImage.png';
 
+import Banner1 from '@/assets/Images/Banner1.png';
+import Banner2 from '@/assets/Images/Banner2.png';
+
+import doc1 from '@/assets/Images/Doctors/doc1.png';
+import doc2 from '@/assets/Images/Doctors/doc2.png';
+import doc3 from '@/assets/Images/Doctors/doc3.png';
+import doc4 from '@/assets/Images/Doctors/doc4.png';
+
 export const links = ['Home', 'Doctors', 'Services', 'Reviews'];
 
 export const descNums = [
@@ -172,3 +180,44 @@ export const ServicesData = [
     ],
   },
 ];
+
+export const Banner1Data = {
+  heading: 'We Are Always Here To Ensure Best Medical Treatment',
+  texts: [
+    'Easy make appointment',
+    'Top specialist doctors',
+    '24/7 service',
+    'Discount for all medical treatments',
+    'Enrolment is quick and easy',
+  ],
+  img: Banner1,
+};
+
+export const DoctorsData = {
+  heading: 'Meet Our Specialists',
+  doctors: [
+    {
+      img: doc1,
+      name: 'Dr. John Smith',
+      job: 'Cardiologist',
+    },
+    {
+      img: doc2,
+      name: 'Dr. Kristin Watson',
+      job: 'Dentist',
+    },
+    {
+      img: doc3,
+      name: 'Dr. Robert Flores',
+      job: 'Surgeon',
+    },
+    {
+      img: doc4,
+      name: 'Dr. Katherine Allen',
+      job: 'Neurologist',
+    },
+  ],
+  heading2: 'Who Are We?',
+  desc: 'A collaborative hospital service website is a digital platform that brings together healthcare professionals, patients and administrators to streamline and enganhe the delivery of healthcare services. This innovative platform allows for seamless communication and coordination among healthcare teams, enabling them to provide more efficient and personalized care to patients.',
+  img: Banner2,
+};

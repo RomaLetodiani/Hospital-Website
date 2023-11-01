@@ -1,11 +1,12 @@
 import Button from '@/Components/UI/Button';
 import hero from '@/assets/images/hero.png';
 import DescNums from './DescNums';
+import SectionWrapper from '../SectionWrapper';
 
 const Home = () => {
   return (
-    <section className="pt-28" id="home">
-      <div className="flex flex-col-reverse text-center md:text-left md:flex-row items-center justify-between gap-10">
+    <SectionWrapper id="home">
+      <div className="flex flex-col-reverse  md:flex-row items-center justify-between gap-10 text-center md:text-left">
         <div className=" tracking-wider md:tracking-normal max-w-xs lg:max-w-xl ">
           <h1 className="lg:text-7xl text-4xl font-bold">
             Your Health Is Our Top Priority
@@ -21,7 +22,7 @@ const Home = () => {
         </div>
       </div>
       <DescNums />
-    </section>
+    </SectionWrapper>
   );
 };
 
