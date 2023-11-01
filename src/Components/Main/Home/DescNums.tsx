@@ -1,4 +1,4 @@
-import { descNums } from '@/Components/Main/Shared/Consts';
+import { descNums } from '@/Components/Shared/Consts';
 
 const DescNums = () => {
   return (

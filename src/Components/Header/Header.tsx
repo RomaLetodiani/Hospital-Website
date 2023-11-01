@@ -1,7 +1,7 @@
 import Logo from '@/assets/Images/Logo.png';
 import NavBar from './NavBar';
 import { useState, useEffect } from 'react';
-import { SelectedPage } from '@/Components/Main/Shared/Types';
+import { SelectedPage } from '@/Components/Shared/Types';
 
 const Header = () => {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
