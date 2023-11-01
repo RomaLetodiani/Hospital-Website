@@ -13,5 +13,5 @@ export default defineConfig({
       },
     ],
   },
-  base: '/Hospital-Landing-Page/',
+  base: '/Hospital-Website',
 });

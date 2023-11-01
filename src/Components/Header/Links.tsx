@@ -1,6 +1,6 @@
-import { SelectedPage } from '@/Shared/Types';
+import { SelectedPage } from '@/Components/Main/Shared/Types';
 import Link from './Link';
-import { links } from '@/Shared/Consts';
+import { links } from '@/Components/Main/Shared/Consts';
 
 type Props = {
   selectedPage: SelectedPage;

@@ -1,5 +1,5 @@
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/20/solid';
-import { SelectedPage } from '@/Shared/Types';
+import { SelectedPage } from '@/Components/Main/Shared/Types';
 import { useState } from 'react';
 
 import useMediaQuery from '@/Hooks/useMediaQuery';
